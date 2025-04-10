@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['actuator arm', 'actuator axis', 'case', 'label', 'lid', 'magnet', 'pcb', 'pcb connector', 'platter', 'platter holder', 'platter protector', 'screw']
+
+roboflow:
+  workspace: hard-drive
+  project: harddrivepartsegmentation
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hard-drive/harddrivepartsegmentation/dataset/3
